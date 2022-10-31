@@ -20,7 +20,7 @@ if not os.path.exists('banlist.json'):
         file.write('[]')
 bot = telebot.TeleBot('token')
 
-admins = [910095798]
+admins = []
 MailingList = []
 # 1 - Баны
 # 2 - История
